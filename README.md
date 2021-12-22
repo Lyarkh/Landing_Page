@@ -1,3 +1,3 @@
 # Landing Page
 
-Criando uma landing page da Balle
+Criando uma landing page da Balle bot
