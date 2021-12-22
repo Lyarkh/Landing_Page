@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(68.15deg, #011113 16.62%, #065968 85.61%);
 }
 
 .cabecalho {
@@ -17,11 +17,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 15px;
 }
 
 .cabecalho-imagem {
-    height: 70px;
+    height: 65px;
 }
 
 .cabecalho-menu {
@@ -31,14 +31,14 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
+    color: #bdf5ff ; /* #FFF2E7 */
     font-weight: 400;
     font-size: 18px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #bdf5ff /* #FFF2E7 */;
 }
 
 .conteudo-principal {
@@ -48,7 +48,7 @@ body {
     justify-content: space-around;
 }
 
-.conteud-principal-escrito {
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -58,18 +58,18 @@ body {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #FFF2E7;  
+    color: #bdf5ff; /* #FFF2E7 */
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #ECD6C4;
+    color: #7cbfca; /* #ECD6C4 */
 }
 
 .conteudo-principal-escrito-botao {
-    background-color: #ECD6C4;
+    background-color: #7cbfca; /* #ECD6C4 */
     width: 180px;
     height: 60px;
     border: none;
@@ -81,6 +81,14 @@ body {
     color: #2F2325;
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(153, 155, 155, 0.466);
+  }
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
@@ -90,12 +98,12 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #bdf5ff; /* #FFF2E7 */
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #FFF2EF;
+    color: #bdf5ff; /* #FFF2EF */
     margin-bottom: 16px;
 }
 
@@ -103,5 +111,16 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #ECD6C4;
+    color: #7cbfca; /* #ECD6C4 */
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #bdf5ff; /* #FFF2E7 */
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
