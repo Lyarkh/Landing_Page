@@ -10,7 +10,7 @@
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg, #011113 16.62%, #065968 85.61%);
-    /* opção 02 = background: linear-gradient(68.15deg, #1E1F35 16.62%, #2f3261 85.61%); */
+    /* opção 02 = background: linear-gradient(68.15deg, #242750 16.62%, #1E1F35 85.61%); */
 }
 
 .cabecalho {
@@ -32,14 +32,14 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: #bdf5ff ; /* #FFF2E7 */
+    color: #bdf5ff; /* #FFF2E7 */
     font-weight: 400;
     font-size: 18px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #bdf5ff /* #FFF2E7 */;
+    border-top: 0.4px solid #bdf5ff; /* #FFF2E7 */
 }
 
 .conteudo-principal {
